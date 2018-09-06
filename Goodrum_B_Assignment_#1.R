@@ -1,0 +1,18 @@
+x<-c(5, 10, 15, 20, 25, 30)
+y<-c(-1, NA, 75, 3, 5, 8)
+z<-c(5)
+unicorn=c(x*z)
+lollipops=c(y*z)
+print(unicorn)
+print(lollipop)
+y<-ifelse(test=is.na(y)==T,yes=(2.5), no=y)
+print(y)
+Class1<-read.csv("https://raw.githubusercontent.com/mattdemography/EDU_7043/master/Data/Assignment_1.csv")
+Class1[1:10,1]
+mean(Class1[1:51,3])
+median(Class1[1:51,3])
+cd=Class1
+subcopydata=subset(cd, State=="CT"|State=="MA"|State=="ME"|State=="NH"|State=="RI"|State=="VT")
+mean(subcopydata[1:6,3])
+cd<-ifelse(test=is.na(cd$Vcrime)==T, yes=555, no=cd$Vcrime)
+mean(cd)
