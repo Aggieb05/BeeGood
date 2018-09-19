@@ -31,3 +31,5 @@ mean(cd)
 
 #For your document I wanted you to give me the actual values not the code. I can see the code here. Next assignment please
 #just give me the answers to the questions asked.
+
+#100 out of 100
